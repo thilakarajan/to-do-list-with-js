@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+h1{
+    color: rgb(56, 56, 201);
+    padding: 10px;
+}
+
+#task-form{
+    width: 380px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.list{
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(56, 56, 201);
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(56, 56, 201);
+}
+
+span{
+    display: flex;
+    justify-content: space-around;
+    width: 380px;
+    margin-top: 20px;
+}
+
+p{
+    text-align: start;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    width: 178px;
+    padding: 10px;
+}
