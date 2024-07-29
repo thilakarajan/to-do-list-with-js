@@ -19,7 +19,7 @@ function add(){
     span.appendChild(button);
     var element = document.getElementsByClassName("content")[0];
     element.appendChild(span);
-    const remove = document.getElementsByClassName('delete')[0];
+    document.form.list.value = "";
 }
 
 function remove(element){
